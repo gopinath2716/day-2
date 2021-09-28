@@ -1,0 +1,30 @@
+<html>
+<head>
+
+</head>
+
+    <body onbeforeprint="onbeforeprint()">
+
+ <input type="text" oncopy="copy()" value="value is copied">
+ <p id="cut"></p>
+
+     Enter your name: <input type="text" onfocus="focus(this)">
+
+     <p>When the input field gets focus, a function is triggered which changes the background-color.</p>
+
+<p>Write something in the text field to trigger a function.</p>
+<input type="text" id="myInput" oninput="input()">
+<p id="demo"></p>
+
+        <p>A function is triggered when the user is pressing a key in the input field.</p>
+
+        <input type="text" onkeydown="myFunction()">
+
+   <h1>Try to print this document</h1>
+    <p><b>Tip:</b> Keyboard shortcuts, such as Ctrl+P sets the page to print.</p>
+     <p><b>Note:</b> The onbeforeprint event is not supported in Safari and Opera. </p>
+
+
+</body>
+
+</html>
